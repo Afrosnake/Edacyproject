@@ -80,16 +80,9 @@ while response is not 'Q':
     prenom = input("Entrez le Prenom de l'etudiant: ")
     adresse = input("Entrez l'adresse de l'etudiant :  ")
     moyenne = input ("Entrez la moyenne de l'etudiant : ")
-    if type(moyenne) != int :
-        print("Vous n'avez pas saisi de chiffre ")
-        moyenne = input("Entrez la moyenne de l'etudiant: ")
 
-
-    elif 0 > int(moyenne) >= 20:
-        print ("Vous n'avez pas saisi de moyenne comprise entre 0 et 20")
-    else :
-        pass
-
+    # if type(moyenne) != int :
+    #     print("Vous n'avez pas saisi un chiffre")
     # elif int(moyenne) > 20 :
     #     print ("La moyenne saisie depasse 20 ")
     #     moyenne = input("Entrez la moyenne de l'etudiant: ")
